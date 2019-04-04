@@ -9,10 +9,13 @@ Elke parameter heeft een ideale waarde. De huidige waarde wordt omgerekend tot e
 Focus is even een stapje terug. basis van html semantiek, media quarys en PE
 serverside versie met js overlay en css enhancements.
 
-## formule
+## Formule
+
 `((-0.3*((T-20)^2))+10)+(10+(1-10)*((C-0)/(2000-0))(8+(1-8)*((M-2000)/(3600-2000))/3`
 
 
 T = temperatuur meeting
+
 C = co2 meeting
+
 M = microfoon meeting
