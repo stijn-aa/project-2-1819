@@ -6,7 +6,10 @@ Met deze informatie is het makkelijk te zien in welke ruimte het fijn is om te w
 De score is gebaseerd op de volgende formule
 Elke parameter heeft een ideale waarde. De huidige waarde wordt omgerekend tot een cijfer van 1 tot 10 met 5 als ideaal. Alle cijfers worden bij elkaar op gerekend en tot een eindcijfer gerekend met een exponentiële formule. Hierdoor kan een kamer met een temperatuur cijfer van 2 nooit een gemiddeld cijfer van 8 krijgen.
 
-Focus is even een stapje terug. basis van html semantiek, media quarys en PE
+Focus is even een stapje terug.
+
+Basis van html semantiek, media queries en PE
+
 serverside versie met js overlay en css enhancements.
 
 ## Formule
