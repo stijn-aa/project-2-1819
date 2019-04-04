@@ -21,6 +21,20 @@ app.get('/', function (req, res) {
     });
 });
 
+app.get('/offline', function (req, res) {
+    router.searchResults().then(data => {
+        const array = data.data.map(item => objectify(item))
+
+        return array
+    }).then(data => {
+        //console.log(res.render)
+        res.render('pages/index', {
+            page: '../partials/overview',
+            data
+        })
+    });
+});
+
 app.get('/:name', function (req, res) {
     router.searchResults().then(data => {
         const array = data.data.map(item => objectify(item))
