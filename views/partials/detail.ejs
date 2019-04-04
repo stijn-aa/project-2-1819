@@ -1,0 +1,16 @@
+<main>
+        
+        <% data.forEach(function(room) { %>
+        <a class="temp<%=Math.round(room.temp) %> terug" data-occupancy=<%=room.status %> href="/">
+        <article  class='detail'>
+
+            <h2> <%=room.name %> </h2>
+            <h3> Temperatuur: <%=room.temp %>°C</h3>
+            <h3> luchtkwaliteit: <%=room.co2Text %></h3>
+            <h3 data-specify='<%=room.mic_level %>/dB'> Geluidsniveau: <%=room.mic_levelText %> </h3>
+            <h4> Score: <%=room.score %> </h4>
+        </article></a>
+        <% }); %>
+        
+        
+</main>

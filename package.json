@@ -1,0 +1,23 @@
+{
+  "name": "mirabeau-smart-office",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev:": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://davebitter@bitbucket.org/davebitter/mirabeau-smart-office.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/davebitter/mirabeau-smart-office#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^1.18.10"
+  }
+}

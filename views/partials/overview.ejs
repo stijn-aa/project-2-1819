@@ -1,0 +1,14 @@
+<main>
+
+
+        <% data.forEach(function(room) { %>
+        <a data-occupancy=<%=room.status %> class='temp<%=Math.round(room.temp) %> info' href="/<%=room.name %>">
+        <article class="overview" >
+
+            <h2> <%=room.name %> </h2>
+            <h3> <%=room.tempText %> (<%=room.temp %>°C)</h3>
+            <h4> <%=room.score %> </h4>
+        </article></a>
+        <% }); %>
+        
+</main>
